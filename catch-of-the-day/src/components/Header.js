@@ -3,16 +3,17 @@ import React from 'react';
 class Header extends React.Component {
   render() {
     return (
-      <header className="Top">
-        <h1>Catch
+      <header className="top">
+        <h1>
+          Catch
           <span className="ofThe">
             <span className="Of">Of</span>
-            <span className="the">the</span>
+            <span className="the">The</span>
           </span>
           Day
         </h1>
         <h3 classname="tagline">
-          <span>Fresh Dailey</span>
+          <span>{this.props.tagline}</span>
         </h3>
       </header>
       
