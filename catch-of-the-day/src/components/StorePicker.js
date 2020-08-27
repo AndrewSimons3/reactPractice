@@ -3,7 +3,8 @@ import { getFunName } from '../helpers';
 
 
 class StorePicker extends React.Component {
-  goToStore() {
+  goToStore(event) {
+    event.preventDefault()
     console.log("going to store")
   }
     render() {
