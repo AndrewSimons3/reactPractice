@@ -2,9 +2,15 @@ import React from "react";
 import Header from './Header';
 import Order from './Order';
 import Inventory from './Inventory';
-import AddFishForm from './AddFishForm';
 
 class App extends React.Component {
+  state = {
+    fishes: {},
+    order: {}
+  };
+  addFish = (fish) => {
+    console.log("Adding a fish!");
+  }
   render() {
     return (
       <div className="catch-of-the-day">
@@ -13,7 +19,6 @@ class App extends React.Component {
         </div>
         <Order />
         <Inventory />
-        <AddFishForm />
         
       </div>
 

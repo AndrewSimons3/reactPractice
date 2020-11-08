@@ -13,7 +13,7 @@ class AddFishForm extends React.Component {
 
     const fish = {
       name:  this.nameRef.value,
-      price:  this.priceRef.value,
+      price:  parseFloat(this.priceRef.value),
       status: this.statusRef.value,
       desc: this.descRef.value,
       image: this.imageRef.value,
