@@ -4,7 +4,8 @@ class Inventory extends React.Component {
   render() {
     return (
       <div className="Inventory">
-        Inventory!!!
+        <h2>Inventory!!!</h2>
+       
       </div>
     )
   }
