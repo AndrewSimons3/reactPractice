@@ -3,7 +3,7 @@ import React from 'react';
 const Header = (props) => (
     <header className="top">
         <h1>
-          Catch
+          Catchs
           <span className="ofThe">
             <span className="Of">Of</span>
             <span className="the">The</span>
